@@ -1,20 +1,9 @@
 layout: {zmk_keyboard: sofle}
 layers:
-  default: [ESC, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', +, CAPSLOCK, Q, W, E, R, T, Y, U, I, O, P, _, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LEFT GUI,
-    Z, X, C, V, B, MUTE, '', N, M, ',', ., /, RSHFT, LEFT SHIFT, LALT, LCTRL, lower, SPACE, ENTER, raise, BACKSPACE, DELETE, '?']
+  default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '=', TAB, Q, W, E, R, T, Y, U, I, O, P, '-', PRINTSCREEN, A, S, D, F, G, H, J, K, L, ;, '''', LEFT
+      SHIFT, Z, X, C, V, B, MUTE, Ctl+F, N, M, ',', ., /, \, LCTRL, LEFT WIN, LEFT ALT, lower, SPACE, ENTER, raise, BACKSPACE, DELETE, ESC]
   lower:
-  - ESC
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - '*'
-  - (
-  - )
-  - '='
+  - F12
   - F1
   - F2
   - F3
@@ -26,32 +15,43 @@ layers:
   - F9
   - F10
   - F11
-  - F12
-  - TAB
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - KP MULTIPLY
-  - (
-  - )
-  - '|'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '4'
+  - '5'
+  - '6'
+  - .
+  - ''
   - {t: ▽, type: trans}
-  - '='
-  - '-'
-  - KP PLUS
-  - '{'
-  - '}'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
   - '['
   - ']'
-  - ;
-  - ':'
-  - \
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - '1'
+  - '2'
+  - '3'
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
