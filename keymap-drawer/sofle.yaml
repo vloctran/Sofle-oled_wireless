@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: sofle}
 layers:
-  default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '=', TAB, Q, W, E, R, T, Y, U, I, O, P, '-', PRINTSCREEN, A, S, D, F, G, H, J, K, L, ;, '''', LEFT
-      SHIFT, Z, X, C, V, B, MUTE, Ctl+F, N, M, ',', ., /, \, LCTRL, LEFT WIN, LEFT ALT, lower, SPACE, ENTER, raise, BACKSPACE, DELETE, ESC]
+  default: [ESCAPE, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '=', '`', Q, W, E, R, T, Y, U, I, O, P, '-', TAB, A, S, D, F, G, H, J, K, L, ;, '''', LEFT SHIFT,
+    Z, X, C, V, B, MUTE, Ctl+F, N, M, ',', ., /, \, LCTRL, LEFT WIN, LEFT ALT, lower, SPACE, ENTER, raise, BACKSPACE, DELETE, PRINTSCREEN]
   lower:
   - F12
   - F1
@@ -82,7 +82,7 @@ layers:
   - CMENU
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - PG UP
+  - HOME
   - {t: ▽, type: trans}
   - UP
   - {t: ▽, type: trans}
@@ -94,7 +94,7 @@ layers:
   - LSHFT
   - {t: ▽, type: trans}
   - CLCK
-  - PG DN
+  - END
   - LEFT
   - DOWN
   - RIGHT
