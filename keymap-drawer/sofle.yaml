@@ -1,9 +1,9 @@
 layout: {zmk_keyboard: sofle}
 layers:
   default: [ESCAPE, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '=', '`', Q, W, E, R, T, Y, U, I, O, P, '-', LSHIFT, A, S, D, F, G, H, J, K, L, ;, '''', LCTRL,
-    Z, X, C, V, B, MUTE, Ctl+F, N, M, ',', ., /, \, TAB, LEFT WIN, LEFT ALT, lower, SPACE, ENTER, raise, BACKSPACE, DELETE, PRINTSCREEN]
+    Z, X, C, V, B, Ctl+F, Ctl+MUTE, N, M, ',', ., /, \, TAB, LEFT WIN, LEFT ALT, lower, SPACE, ENTER, raise, BACKSPACE, DELETE, PRINTSCREEN]
   lower:
-  - F12
+  - Gui+L
   - F1
   - F2
   - F3
@@ -14,43 +14,43 @@ layers:
   - F8
   - F9
   - F10
+  - F11
+  - Ctl+Alt+DEL
+  - HOME
+  - UP ARROW
+  - END
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - F12
+  - {t: ▽, type: trans}
+  - LEFT
+  - DOWN
+  - RIGHT
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - Sft+Ctl+V
+  - ''
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - '4'
-  - '5'
-  - '6'
-  - .
-  - '*'
-  - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
-  - '['
-  - ']'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ''
-  - '1'
-  - '2'
-  - '3'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -70,50 +70,50 @@ layers:
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
+  - ''
+  - ''
+  - '*'
+  - '['
+  - ']'
+  - +
+  - {t: CLCK, h: toggle}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - KP 7
+  - KP 8
+  - KP 9
+  - ''
+  - '-'
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - KP 4
+  - KP 5
+  - KP 6
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - INS
-  - PSCRN
-  - CMENU
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - HOME
-  - {t: ▽, type: trans}
-  - UP
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LALT
-  - LCTRL
-  - LSHFT
-  - {t: ▽, type: trans}
-  - CLCK
-  - END
-  - LEFT
-  - DOWN
-  - RIGHT
-  - DEL
-  - BSPC
-  - {t: ▽, type: trans}
-  - UNDO
-  - CUT
-  - COPY
-  - Ctl+Sft+V
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - KP 0
+  - KP 1
+  - KP 2
+  - KP 3
+  - /
+  - {t: KP NUMLOCK, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -131,7 +131,7 @@ layers:
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
-  - W
+  - ''
   - ''
   - ''
   - ''
